@@ -5,7 +5,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class AiApp {
-    private static final String APIKEY = "your-apıkey"; 
+    private static final String APIKEY = "your-APIKEY"; 
     private static final String APIURL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + APIKEY;
     public static void main(String[] args) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
