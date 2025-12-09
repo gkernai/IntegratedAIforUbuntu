@@ -9,7 +9,7 @@ public class AiApp {
     private static final String APIURL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + APIKEY;
     public static void main(String[] args) throws IOException, InterruptedException {
         HttpClient client = HttpClient.newHttpClient();
-		String question=(args.length>0)?args[0]:"How can i help you?";
+		String question=(args.length>0)?args[0]:"Hi!!";
 
         
         String Requestbody = """
