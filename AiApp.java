@@ -12,13 +12,13 @@ public class AiApp {// CLI Client that calls the Gemini 2.0 Flash Model via the 
 		String question=(args.length>0)?args[0]:"Hi!!";// Checks if a question is provided as a command-line argument. Uses a default value ("Merhaba!") otherwise.
 
         
-        String Requestbody = """// The JSON body (payload) sent to the Gemini API. It contains the user's question and formatting.
+        String Requestbody = """
             {
               "contents": [{
                 "parts": [{"text": "%s"}]
               }]
             }
-            """.formatted(question);
+            """.formatted(question);// The JSON body (payload) sent to the Gemini API. It contains the user's question and formatting.
 
         HttpRequest request = HttpRequest.newBuilder() // Builds the HTTP POST request, defining the API endpoint, the 'application/json' content type header, and the JSON request body.
                 .uri(URI.create(APIURL))
