@@ -4,6 +4,10 @@
 This project was born out of pure curiosity. It is designed to fetch and interact with the **Gemini 2.0 Flash** AI model via Google AI Studio.
 
 The entire codebase was written using the **Pluma** text editor, and the logic is intentionally kept simple for ease of understanding.
+WARNİNG!
+To use this API, you need an API key from Google AI Studio. 
+
+
 
 `## Usage
 
