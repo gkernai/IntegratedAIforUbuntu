@@ -38,7 +38,7 @@ nano AI
  Copy and paste the following lines into the file. Note: Replace /home/chemax with the actual path where your .class files are located.
 ```bash
 #!/bin/bash
-java -cp "/home/chemax" AiApp "$@"
+java -cp "/home/username" AiApp "$@"
 ```
 3. Make it Executable
 
