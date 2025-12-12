@@ -8,6 +8,9 @@ The entire codebase was written using the **Pluma** text editor, and the logic i
 `## Usage
 
 You can run the application in the Ubuntu terminal by passing your question as an argument:
+
+
+
 ##UPDATE
 How to Install as a System Command (Linux/Ubuntu)
 
