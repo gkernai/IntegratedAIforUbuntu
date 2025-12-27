@@ -64,7 +64,7 @@ If you don't want to move files into system directories, you can add an alias to
 
     Run nano ~/.bashrc
 
-    Add this line at the bottom: alias ai='java -cp "/home/chemax" AiApp'
+    Add this line at the bottom: alias ai='java -cp "/home/usr" AiApp'
 
     Run source ~/.bashrc
 
